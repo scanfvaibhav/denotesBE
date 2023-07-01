@@ -1,1 +1,2 @@
-web: sh startServer-heroku.sh
+web: node index.js
+
