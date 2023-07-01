@@ -6,14 +6,15 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-rest-example" />
         <module name="denotes" />
+        <module name="thymeleaf-app" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="denotesBE" target="1.8" />
       <module name="simple-springboot-app" target="1.8" />
       <module name="spring-boot-crud" target="1.8" />
+      <module name="spring-boot-rest-example" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -21,6 +22,7 @@
       <module name="denotes" options="-parameters" />
       <module name="denotesBE" options="-parameters" />
       <module name="spring-boot-crud" options="-parameters" />
+      <module name="thymeleaf-app" options="-parameters" />
     </option>
   </component>
 </project>
