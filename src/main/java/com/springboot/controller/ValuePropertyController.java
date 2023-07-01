@@ -12,7 +12,7 @@ public class ValuePropertyController {
 	@Value("${configuration.property.value:default value}")
 	private String springProperty;
 
-	@GetMapping
+	@GetMapping("/Configuration")
 	public String getPropertyFromConfiguration() {
 		return String.format("Value obtained from application.yml file is -> %s", springProperty);
 	}
