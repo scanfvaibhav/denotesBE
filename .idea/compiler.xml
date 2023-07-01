@@ -6,13 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-boot-crud" />
+        <module name="spring-boot-rest-example" />
         <module name="denotes" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="denotesBE" target="1.8" />
       <module name="simple-springboot-app" target="1.8" />
+      <module name="spring-boot-crud" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
